@@ -32,7 +32,7 @@ h4 i {
     position: fixed;
     width: 100%;
     top: 0;
-    height: 9%;
+    height: 7%;
     display: flex;
     z-index: 999;
     justify-content: space-between;
@@ -42,9 +42,9 @@ h1 {
     position: absolute;
     bottom: 30%;
     text-align: center;
-    width: 90%;
+    width: 80%;
     font-size: 1.5rem;
-    left: 5%;
+    left: 10%;
     z-index: 1;
     text-transform: uppercase;
 }
@@ -314,7 +314,7 @@ img {
 /* TABLET DEVICES */
 @media screen and (min-width: 40em) {
     .header {
-        height: 10%;
+        height: 7%;
     }
     h4 {
         padding: 1rem;
@@ -333,7 +333,7 @@ img {
         transform: rotate(-35deg) translate(3px, -6px);
     } 
     nav {
-        padding: 1.3rem 0;
+        padding: 0.8rem 0;
     }  
     .about {
         align-items: center;
@@ -394,15 +394,20 @@ img {
 
 /* LAPTOP DEVICE */
 @media screen and (min-width: 60em) {
+    .header{
+        padding: 0.2rem 0;
+    }
     h1{
         font-size: 1.7rem;
+        padding: 0;
     }
     .menu-btn {
         display: none;
     }
     nav {
         width: 50%;
-        height: 10vh;
+        height: 9%;
+        top: 10%;
         right: 0;
         transition: all .5s linear;
     }
@@ -413,13 +418,13 @@ img {
         align-items: center;
         justify-content: space-around;
         list-style-type: none;
-        margin: 0%;
+        margin: 2% 0;
     }
     nav ul li {
         font-weight: 600;
-        font-size: 1rem;
+        /* font-size: 1rem; */
         text-align: center;
-        padding: 0.5rem;
+        padding: 0.2rem;
     }
     nav ul li:hover {
         background-color: rgba(0, 0, 0, 0.504);
