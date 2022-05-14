@@ -43,7 +43,7 @@ h1 {
     bottom: 30%;
     text-align: center;
     width: 80%;
-    font-size: 1.7rem;
+    /* font-size: 1.7rem; */
     left: 10%;
     z-index: 1;
     text-transform: uppercase;
