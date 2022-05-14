@@ -42,8 +42,9 @@ h1 {
     position: absolute;
     bottom: 30%;
     text-align: center;
-    width: 100%;
-    font-size: 1.7rem;
+    width: 90%;
+    font-size: 1.5rem;
+    left: 5%;
     z-index: 1;
     text-transform: uppercase;
 }
@@ -394,7 +395,7 @@ img {
 /* LAPTOP DEVICE */
 @media screen and (min-width: 60em) {
     h1{
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
     .menu-btn {
         display: none;
