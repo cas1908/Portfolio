@@ -115,7 +115,7 @@ nav ul li:hover {
     background-size: cover;
     /* height: 100vh; */
 }
-#about h2, #services h2, #portfolioh2{
+#about h2, #services h2, #portfolio h2{
     background-color: #fff;
 }
 .about {
